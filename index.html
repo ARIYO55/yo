@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Shop</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f4f1ee;
+    }
+
+    header {
+      background-color: #5c3d2e;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+
+    header h1 {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 30px;
+    }
+
+    .card {
+      background: white;
+      width: 220px;
+      border-radius: 10px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      color: #5c3d2e;
+    }
+
+    .price {
+      color: green;
+      font-size: 18px;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #5c3d2e;
+      color: white;
+      border: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #3e2723;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>☕ Coffee Shop</h1>
+    <p>Nikmati kopi terbaik setiap hari</p>
+  </header>
+
+  <div class="container">
+
+    <div class="card">
+      <h2>Espresso</h2>
+      <p>Kopi hitam dengan rasa kuat.</p>
+      <p class="price">Rp15.000</p>
+      <button>Pesan</button>
+    </div>
+
+    <div class="card">
+      <h2>Cappuccino</h2>
+      <p>Campuran espresso dan susu.</p>
+      <p class="price">Rp20.000</p>
+      <button>Pesan</button>
+    </div>
+
+    <div class="card">
+      <h2>Latte</h2>
+      <p>Kopi susu lembut dan creamy.</p>
+      <p class="price">Rp22.000</p>
+      <button>Pesan</button>
+    </div>
+
+    <div class="card">
+      <h2>Americano</h2>
+      <p>Espresso dengan tambahan air panas.</p>
+      <p class="price">Rp18.000</p>
+      <button>Pesan</button>
+    </div>
+
+    <div class="card">
+      <h2>Mocha</h2>
+      <p>Perpaduan kopi dan coklat.</p>
+      <p class="price">Rp25.000</p>
+      <button>Pesan</button>
+    </div>
+
+  </div>
+
+</body>
+</html>
